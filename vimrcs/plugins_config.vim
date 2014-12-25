@@ -113,3 +113,12 @@ nnoremap <silent> <leader>z :Goyo<cr>
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_python_checkers=['pyflakes']
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => ConqueTerm config
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:ConqueTerm_CWInsert = 1
+let g:ConqueTerm_Color = 1
+let g:ConqueTerm_ReadUnfocused = 1
+let g:ConqueTerm_PromptRegex = '^\w\+@[0-9A-Za-z_.-]\+:[0-9A-Za-z_./\~,:-]\+\$'
